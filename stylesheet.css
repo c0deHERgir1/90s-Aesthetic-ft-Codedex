@@ -1,0 +1,328 @@
+html {
+  background-color: #DBCFAB;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-image: url("extra/edeff045ec0cdc92e48e1f341b535db3.jpg");
+  margin: 0;
+  height: auto;
+  cursor: progress;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* header {
+    background-color: #9f9f9f;
+    position:sticky;
+    overflow: hidden;
+    padding: 50px;
+    margin: 0;
+    color: black;
+    font-size: 10px;
+    height: 5px;
+    width: 100%; 
+} */
+
+h2 {
+  color: white;
+}
+
+dialog {
+  overflow: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 50%;
+  width: 50%;
+  z-index: 100;
+}
+
+p {
+  color: black;
+  /* font: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal; */
+}
+
+button:hover {
+  background-color: pink;
+}
+
+button {
+  outline: outset 5px;
+}
+
+#grid-container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  /* Three columns of equal size */
+}
+
+#allButtons-container {
+  float: left;
+  padding: 65px;
+}
+
+#luxurydesk {
+  float: right;
+  width: 600px;
+  /* Adjust width as needed */
+  height: 500px;
+  /* Adjust height as needed */
+  padding: 40px;
+}
+
+.openMusicPopup{
+
+}
+
+.openPagerPopup img {
+  height: 600px;
+  width: 500px;
+}
+
+.openPagerPopup {
+  height: 500px;
+  width: 500px;
+}
+
+.Popup-container {
+  z-index: 1000;
+}
+
+.aboutme {
+  color: white;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.header {
+  outline: outset 5px;
+  background: #767676;
+  display: flex;
+  align-items: flex-end;
+  justify-content: left;
+}
+
+/* .header1 {
+  height: 15px;
+  width: 20px;
+} */
+
+.header-button {
+  background-color: #767676;
+  padding: 1px;
+  margin: 1px;
+  height: 45px;
+  width: 200px;
+}
+
+.music-note {
+  height: 13px;
+}
+
+/* .header1, .header2, .header3 .header4 .header5 {
+      background-color: #3e3d3d;
+      padding: 1px;
+      margin: 5px;
+    } */
+
+.header-button:hover {
+  background: #9f9f9f;
+}
+
+
+/* .header2 {
+  height: 15px;
+  width: 100px;
+}
+
+.header3 {
+  height: 15px; 
+} */ */
+
+/* .openGreetingsPopup .openTVPopup dialog {
+
+} */
+
+.greetingsPopup {
+  background-image: linear-gradient(purple, pink);
+  Overflow: auto;
+  height: 40%;
+  width: 40%;
+}
+
+.cloudgif {
+  width: 1000px;
+  height: 200px;
+}
+
+.openGreetingsPopup,
+.openTestimonials,
+.unfunctionalBackground {
+  background-color: white;
+
+}
+
+.openTestimonialsPopup {
+  background-image: url("https://i.gifer.com/IrF.gif");
+  height: 200px;
+  width: 400px;
+}
+
+.openTVPopup {
+  background-color: black;
+  width: 40%;
+}
+
+.LauraLabslogo {
+  height: 150px;
+  width: 300px;
+}
+
+.pixelprofile {
+  height: 150px;
+  width: 100px;
+}
+
+.astronautGif {
+  height: 50px;
+  width: 50px;
+}
+
+.images1 {
+  position: absolute;
+  /* max-height: 5px;
+  max-width: 5px; */
+  z-index: 0;
+  top: 200px;
+  left: 250px;
+}
+
+.images2 {
+  position: absolute;
+  /* max-height: 1px;
+  max-width: 1px; */
+  z-index: 0;
+  top: 200px;
+  left: 600px;
+}
+
+.images3 {
+  position: absolute;
+  /* max-height: 5px;
+  max-width: 5px; */
+  z-index: 0;
+  left: 1100px;
+  top: 500px;
+}
+
+.images4 {
+  position: absolute;
+  /* max-height: 5px;
+  max-width: 5px; */
+  z-index: 0;
+  right: 500px;
+  top: 600px;
+}
+
+.bubblespuff img {
+  position: relative;
+  width: 90px;
+  left: 80px;
+}
+
+.pinkhearts img {
+  position: relative;
+  width: 90px;
+  bottom: 50px;
+}
+
+.fire img {
+  position: relative;
+  width: 90px;
+  top: 170px;
+  left: 200px;
+  z-index: auto;
+}
+
+.hellokitty img {
+  position: relative;
+  width: 90px;
+  top: 10px;
+  left: 500px;
+}
+
+.typing img {
+  position: relative;
+  width: 90px;
+  bottom: 300px;
+}
+
+.error img {
+  position: relative;
+  width: 90px;
+  left: 20px;
+}
+
+.nosleep img {
+  position: relative;
+  width: 90px;
+  right: 100px;
+}
+
+
+.kittydance img {
+  position: relative;
+  width: 90px;
+  left: 200px;
+  bottom: 500px;
+}
+
+.baby90sgif img {
+  position: relative;
+  width: 90px;
+  left: 100px;
+  bottom: 550px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(100%)
+  }
+
+  to {
+    transform: translateX(-100%)
+  }
+
+}
+
+.banner {
+  overflow: hidden;
+  padding: 40px 0;
+  /* background: ; */
+}
+
+.logos {
+  white-space: nowrap;
+  animation: 20s slide infinite linear;
+}
+
+.logos img {
+  height: 100px;
+  margin: 0 40px;
+}
+
+/* .fave90s{
+  color: fuchsia;
+  text-shadow: #DBCFAB;
+} */
