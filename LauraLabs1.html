@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link href="stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="header">
+        <button class="header-button" type="button">
+            <p class="header1">Private Office Suite</p>
+        </button>
+        <button class="header-button" type="button">
+            <p class="header2">Login</p>
+        </button>
+    
+        <button class="header-button" type="button">
+            <p class="header4"></p> Time</p>
+        </button>
+
+        <div class="musicPopup">
+            <button data-open-modal-5 class="header-button" id="openMusicPopup" type="button">
+                <p class="header3"><img class="music-note" src="extra/icons8-music-note-32.png" alt="music icon"></p>
+            </button>
+            <dialog data-modal-5 class="audio-player">
+                <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHA1dGg2a280aWl1aWE3NGN1c3FibXBmdW1mNHJnb3lrdmdzOWNrdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/oA88lDC8EJasiPLqhZ/giphy.gif">
+                <button data-close-modal-5 class="closeMusicPopup" type="submit" formmethod="dialogue">close</button>
+            </dialog>
+            </dialog>
+        </div>
+
+<script>
+     //music player
+     const openMusic = document.querySelector("[data-open-modal-5]")
+        const closeMusic = document.querySelector("[data-close-modal-5]")
+        const modal5 = document.querySelector("[data-modal-5]")
+
+        openMusic.addEventListener("click", () => {
+            modal5.show()
+        });
+
+        closeMusic.addEventListener("click", () => {
+            modal5.close()
+        });
+</script>
+
+        <div class="PagerPopup">
+            <button data-open-modal-4 class="header-button" type="button">
+                <p class="header5"></p>Pager</p>
+            </button>
+            <dialog data-modal-4 class="openPagerPopup">
+                <p><strong>BREAKING NEWS!!! SECRET OF THE FUTURE ELECTRIC CAR!!!</strong></p>
+                <img src="extra/im-the-guy-that-makes-90s-print-ads-for-modern-products-v0-hx3rsbmseakc1.webp">
+                <button data-close-modal-4 class="closePagerPopup" type="submit" formmethod="dialogue">close</button>
+            </dialog>
+        </div>
+        
+        <script>
+            //PAGER breaking news
+            const openPager = document.querySelector("[data-open-modal-4]")
+            const closePager = document.querySelector("[data-close-modal-4]")
+            const modal4 = document.querySelector("[data-modal-4]")
+    
+            openPager.addEventListener("click", () => {
+                modal4.showModal()
+            });
+    
+            closePager.addEventListener("click", () => {
+                modal4.close()
+            });
+    
+        </script>
+    </div>
+
+
+    <!-- <script>
+        let audio = document.getElementById("music-note");
+        audio.volume = 0.2;
+    </scrip> -->
+
+    <div id="grid-container">
+
+
+        <div id="allButtons-container">
+            <div class="Popup-container">
+                <div id="GreetingsPopup">
+                    <button data-open-modal-1 type="button" class="openGreetingsPopup"><img
+                            src="extra/icons8-female-50.png"><br>Greetings</button>
+                    <dialog data-modal-1 class="greetingsPopup">
+                        <img class="LauraLabslogo" src="extra/text-1734118283896.png"
+                            alt="Laura Labs portfolio text image logo"><br>
+                        <img class="cloudgif" src="https://i.gifer.com/3F3I.gif">
+                        <img class="pixelprofile" src="extra/pixelated profile photo.png"
+                            alt="pixelated profile photo of Laura drinking coffee selfie">
+
+                        <h2>Hello my name is Laura</h2>
+                        <div class="aboutme">
+                            <p>I am a fullstack developer. a little more about me in timeline form</p>
+                            <p> <strong>A Journey Through Time: From Fitness to Code</strong><br>
+
+                                <strong>The 90s Kid</strong>
+
+                                Born in the vibrant era of the 90s, I grew up immersed in a world of dial-up internet,
+                                chunky CRT monitors, and the rhythmic hum of dial-up modems. This formative period
+                                sparked a
+                                lifelong fascination with technology and the digital realm. I remember spending
+                                countless
+                                hours exploring the early internet, marveling at its potential and the boundless
+                                possibilities it held.<br><br>
+
+                                <strong>The Fitness Enthusiast</strong>
+
+                                My journey took an unexpected turn when I discovered a passion for fitness and wellness.
+                                I
+                                dove headfirst into a world of weightlifting, pilates, and healthy eating. I was drawn
+                                to
+                                the physical and mental benefits of a balanced lifestyle. This newfound enthusiasm led
+                                me to
+                                become a fitness and wellness content creator, sharing my experiences and knowledge with
+                                others.<br><br>
+
+                                <strong>The Content Creator</strong>
+
+                                As a content creator, I embraced the opportunity to connect with people from all walks
+                                of
+                                life. I shared my fitness routines, healthy recipes, and lifestyle tips on various
+                                platforms. I loved the creative process of crafting engaging content and interacting
+                                with a
+                                supportive community.<br><br>
+
+                                <strong>The Nostalgia Buff</strong>
+
+                                Despite my love for the present, I harbor a deep affection for the past. I'm a
+                                self-proclaimed "90s kid," captivated by the nostalgia of that era. I often find myself
+                                reminiscing about the iconic pop culture, fashion trends, and technological advancements
+                                of
+                                that time.<br><br>
+
+                                <strong>The Aspiring Netartist</strong>
+
+                                The rise of digital art and design in the early 2000s fascinated me. Although I missed
+                                the
+                                peak of the netart movement, I admire the creativity and innovation of those early
+                                pioneers.
+                                I believe that their work laid the foundation for the digital art and design landscape
+                                we
+                                see today.<br><br>
+
+                                <strong>The Developer's Journey</strong>
+
+                                In recent years, I've embarked on a new chapter in my life: software development. I've
+                                been
+                                captivated by the power of code to create and innovate. The logical problem-solving and
+                                creative thinking required for coding align perfectly with my interests. I'm excited to
+                                explore the vast possibilities that this field offers and contribute to the development
+                                of
+                                cutting-edge technologies.<br><br>
+
+                                <strong>A Growing Appreciation</strong>
+
+                                As I delve deeper into the world of software development, I've developed a newfound
+                                respect
+                                for graphic designers and other creative professionals. I've come to realize the
+                                importance
+                                of aesthetics and user experience in software design. Their ability to create visually
+                                appealing and intuitive interfaces is truly inspiring.<br><br>
+
+                                <strong>A Balanced Life</strong>
+
+                                Beyond my professional pursuits, I cherish the simple pleasures of life. I love spending
+                                time with my family, cooking delicious meals, and immersing myself in a good book. These
+                                activities provide me with a sense of peace and balance, allowing me to recharge and
+                                refocus.
+
+                                My journey has been a winding road, filled with unexpected twists and turns. From
+                                fitness
+                                enthusiast to content creator to aspiring software developer, I've embraced each phase
+                                with
+                                enthusiasm and curiosity. I'm excited to see where this path leads me, and I'm grateful
+                                for
+                                the opportunities to learn, grow, and create.
+                            </p>
+                        </div>
+                        <img class="astronautGif" src="https://i.gifer.com/BVLZ.gif"><br>
+                        <button data-close-modal-1 class="closeGreetingsPopup" type="submit"
+                            formmethod="dialogue">close</button>
+                    </dialog>
+                </div>
+
+                <script>
+                    const openPopup = document.querySelector("[data-open-modal-1]")
+                    const closePopup = document.querySelector("[data-close-modal-1]")
+                    const modal1 = document.querySelector("[data-modal-1]")
+
+                    openPopup.addEventListener("click", () => {
+                        modal1.show()
+                    });
+
+                    closePopup.addEventListener("click", () => {
+                        modal1.close()
+                    });
+                </script>
+
+                <br>
+
+                <div id="TestimonialsPopup">
+                    <button data-open-modal-2 type="button" class="openTestimonials"><img class="book-icon"
+                            src="extra/icons8-book-48.png" /><br>Testimonials</button>
+                    <dialog data-modal-2 class="openTestimonialsPopup">
+                        <form class="formTestimonials" method="dialogue">
+                            Write a Review:
+                            Friends, colleagues, mentors, etc. I would love your encouragement!
+                            <input type="text" placeholder="Write your Review"
+                                style="font-size: 10pt; height:25px, width:300px" required />
+                            <br><br>
+                            <input type="text" placeholder="first name" required />
+                            <br><br>
+                            <input type="email" placeholder="email address" required /><br><br>
+                            <button data-close-modal-2 type="submit" class="closeTestimonialsPopup"
+                                formmethod="dialogue">close</button>
+                            <input type="reset">
+                            <button type="submit">Submit</button>
+                        </form>
+                    </dialog>
+                </div>
+
+                <script>
+                    const openButton = document.querySelector("[data-open-modal-2]")
+                    const closeButton = document.querySelector("[data-close-modal-2]")
+                    const modal2 = document.querySelector("[data-modal-2]")
+
+                    openButton.addEventListener("click", () => {
+                        modal2.show()
+                    });
+
+                    closeButton.addEventListener("click", () => {
+                        modal2.close()
+                    });
+                </script>
+                <br>
+                <div id="TVPopup">
+                    <button data-open-modal-3 type="button" class="openTV"><img src="extra/icons8-tv-50.png"><br>Laura
+                        TV</button>
+                    <dialog data-modal-3 class="openTVPopup">
+                        <img src="https://i.gifer.com/OAO0.gif">
+                        <button data-close-modal-3 type="submit" class="closeTestimonialsPopup"
+                            formmethod="dialogue">close</button>
+                    </dialog>
+                </div>
+
+                <script>
+                    const openTV = document.querySelector("[data-open-modal-3]")
+                    const closeTV = document.querySelector("[data-close-modal-3]")
+                    const modal3 = document.querySelector("[data-modal-3]")
+
+                    openTV.addEventListener("click", () => {
+                        modal3.show()
+                    });
+
+                    closeTV.addEventListener("click", () => {
+                        modal3.close()
+                    });
+                </script>
+
+            </div>
+
+            <br>
+
+
+            <div id="unfunctionalButtons" class="unfunctionalButtons">
+                <button type="button" class="unfunctionalBackground"><img
+                        src="extra/icons8-classroom-50.png"><br>Demos</button>
+                <br><br>
+                <button type="button" class="unfunctionalBackground"><img
+                        src="extra/icons8-design-50.png"><br>Designs</button>
+                <br><br>
+                <button type="button" class="unfunctionalBackground"><img
+                        src="extra/icons8-blog-50.png"><br>Blog</button>
+                <br><br>
+                <button type="button" class="unfunctionalBackground"><img
+                        src="extra/icons8-more-50.png"><br>More</button>
+            </div>
+        </div>
+
+        <main>
+            <img id="luxurydesk" src="extra/pixel-hotel-words.png"
+                alt="luxury place to work for a developer at a hotel with palm tree and pool">
+        </main>
+
+        <div class="images1">
+            <div class="bubblespuff"><img src="https://i.gifer.com/YVP8.gif"></div>
+        </div>
+        <br>
+        <div class="images2">
+            <div class="pinkhearts"><img src="https://i.gifer.com/4tyu.gif"></div>
+            <div class="fire"><img src="https://i.gifer.com/y8.gif"></div>
+            <div class="hellokitty"><img src="https://i.gifer.com/7V0.gif"></div>
+        </div>
+        <br>
+        <div class="images3">
+            <div class="typing"><img src="https://i.gifer.com/F89e.gif"></div>
+            <div class="error"><img src="https://i.gifer.com/y7.gif"></div>
+            <div class="nosleep"><img src="https://i.gifer.com/X1ag.gif"></div>
+        </div>
+        <br>
+        <div class="images4">
+            <div class="kittydance"><img src="https://i.gifer.com/6kc.gif"></div>
+            <div class="baby90sgif"><img src="https://i.gifer.com/Rs3V.gif"></div>
+
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="logos">
+            <img src="extra/90sFave.png">
+            <img src="extra/babyphat.png">
+            <img src="extra/calvinklein.webp">
+            <img src="extra/juicycouture.avif">
+            <img src="extra/limitedtoo.png">
+            <img src="extra/tommyhilfiger.png">
+            <img src="extra/ed-hardy.jpg">
+            <img src="extra/fila.jpg">
+            <img src="extra/guess.jpg">
+            <img src="extra/nautica.jpg">
+        </div>
+    </div>
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Space+Mono&family=Tiny5&display=swap" rel="stylesheet"> -->
+
+    <!-- //site wide cursor
+    const site_wide_cursor = document.querySelector(".customer-cursor.site-wide");
+
+    document.addEventListener("mouseenter", () => {
+        site_wide_cursor.style.display = "block";
+    });
+    document.addEventListener("mouseleave", () => {
+        site_wide_cursor.style.display = "none";
+    });
+    document.addEventListener("mousemove", TrackCursor);
+
+    function TrackCursor(evt) {
+        const w = site_wide_cursor.clientWidth;
+        const h = site_wide_cursor.clientHeight;
+        site_wide_cursor.style.transform = 
+        `translate(${evt.clientX -w/2}px, ${evt.clientY -h/2}px)`
+    }
+</script> -->
+
+    <!-- <div class="images">
+    <div class="bubblespuff">
+        <img src="https://i.gifer.com/YVP8.gif">
+    </div>
+
+    <div class="pinkhearts">
+        <img src="https://i.gifer.com/4tyu.gif">
+    </div>
+
+    <div class="fire">
+        <img src="https://i.gifer.com/y8.gif">
+    </div>
+
+    <div class="hellokitty">
+        <img src="https://i.gifer.com/7V0.gif">
+    </div>
+
+    <div class="typing">
+        <img src="https://i.gifer.com/F89e.gif" 
+    </div>
+
+    <div class="error">
+        <img src="https://i.gifer.com/y7.gif" 
+    </div>
+
+    <div class="nosleep">
+        <img src="https://i.gifer.com/X1ag.gif">
+    </div>
+
+    <div class="kittydance">
+        <img src="https://i.gifer.com/6kc.gif" </div>
+
+    <div class="baby90sgif">
+        <img src="https://i.gifer.com/Rs3V.gif">
+    </div>
+
+</div> -->
+    <!-- <div class="musicPlayer">
+    <audio controls>
+        <source src="https://www.youtube.com/watch?v=8D1Zn-Ij6Mw&list=PLc5NnoP78uGmx9GSmb3iT2LY4R7cD-Ytx&index=14"
+            type="audio/mp3">
+    </audio>
+</div> 
+<button data-open-modal>Open</button>
+
+<dialog data-modal>
+    <form>
+        <input type="text"/>
+        <button type"submit">Submit</button>
+    </form>
+</dialog> -->
+
+</body>
+
+</html>
